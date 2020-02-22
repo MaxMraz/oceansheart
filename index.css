@@ -52,3 +52,13 @@
   border-image-repeat: round;
   border-width:100% 0;
 }
+
+.screenshotGrid {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 2em 2em;
+}
+
+  .screenshotGrid img {
+    width: 100%;
+  }

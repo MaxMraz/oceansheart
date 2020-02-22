@@ -41,14 +41,16 @@ body, html {
 	color: #fae8d0;
 }
 
+h1 {
+	font-size: 40px;	
+}
+
 h2 {
-	font-size: 50px;
+	font-size: 30px;
 }
 
 .decoratedTitle {
-	background-image: url("resources/leaves-title-bg.png");
-	/* background-position: center; */
+	/* background-image: url("resources/leaves-title-bg.png"); */
 	background-repeat: no-repeat;
 	background-size: contain;
-	/* color: #0C6F6F; */
 }
