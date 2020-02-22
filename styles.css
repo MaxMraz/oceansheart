@@ -49,6 +49,10 @@ h2 {
 	font-size: 30px;
 }
 
+footer {
+	text-align: center;
+}
+
 .decoratedTitle {
 	/* background-image: url("resources/leaves-title-bg.png"); */
 	background-repeat: no-repeat;
