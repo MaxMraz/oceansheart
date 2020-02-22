@@ -31,58 +31,24 @@
 	line-height: 1.618;
 	list-style: none;
 	font-family: 'Rubik', sans-serif;
-	text-align: center;
+	/* text-align: center; */
 	text-decoration: none;
 }
 
 body, html {
   height: 100%;
-  /* background-color: #000; */
+  background-color: #2a2227;
+	color: #fae8d0;
 }
 
-#hero_image {
-  background-image: url("resources/hero_image_3-blurred.png");
-  height: 100%;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+h2 {
+	font-size: 50px;
 }
 
-#title_image {
-  max-height: 25%;
-  max-width: 80%;
-  position: absolute;
-  bottom: 0px;
-  left: 3%;
-}
-
-/* .content {
-	width: 85%;
-	margin: 0 auto;
-} */
-
-@media (min-aspect-ratio: 5/4) {
-	#videoWrapperWrapper {
-		width: 75%;
-		margin: 0 auto;
-	}
-}
-
-.videoWrapper {
-  background-image: url("resources/leaves-video-border.png");
-	background-position: center;
+.decoratedTitle {
+	background-image: url("resources/leaves-title-bg.png");
+	/* background-position: center; */
 	background-repeat: no-repeat;
-	position: relative;
-	padding-bottom: 56.25%; /* 16:9 */
-	padding-top: 25px;
-	margin: auto;
-	height: 0;
-}
-.videoWrapper iframe {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
+	background-size: contain;
+	/* color: #0C6F6F; */
 }

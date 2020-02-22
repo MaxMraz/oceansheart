@@ -1,0 +1,54 @@
+#hero_image {
+  background-image: url("resources/hero_image_3-blurred.png");
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#title_image {
+  max-height: 25%;
+  max-width: 80%;
+  position: absolute;
+  bottom: 5%;
+  left: 3%;
+}
+
+#videoContainer{
+	width: 100%;
+	background-image: url("resources/leaves-video-border.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+@media (min-aspect-ratio: 5/4) {
+	#videoWrapperWrapper {
+		width: 75%;
+		margin: 0 auto;
+	}
+}
+
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	margin: auto;
+	height: 0;
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+#content {
+  border: 30px solid transparent;
+  padding: 15px;
+  border-image: url('resources/vert-border-2.png') 100;
+  border-image-repeat: round;
+  border-width:100% 0;
+}
