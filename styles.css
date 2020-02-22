@@ -29,7 +29,7 @@
 	padding: 0;
 
 	line-height: 1.618;
-	list-style: none;
+	/* list-style: none; */
 	font-family: 'Rubik', sans-serif;
 	/* text-align: center; */
 	text-decoration: none;
@@ -42,7 +42,7 @@ body, html {
 }
 
 h1 {
-	font-size: 40px;	
+	font-size: 40px;
 }
 
 h2 {

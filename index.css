@@ -15,6 +15,22 @@
   left: 3%;
 }
 
+#heroImage2 {
+  /* background-image: url("resources/hero_image_2.png");
+  width: 100%;
+  height:auto;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain; */
+  height: auto;
+}
+
+  #heroImage2 img {
+    width: 100%;
+    height: auto;
+  }
+
 #videoContainer{
 	width: 100%;
 	background-image: url("resources/leaves-video-border.png");
@@ -62,3 +78,12 @@
   .screenshotGrid img {
     width: 100%;
   }
+
+#features {
+  text-align: center;
+}
+
+ul {
+  list-style: inside;
+  list-style-image: url('resources/marker_icon.png');
+}
