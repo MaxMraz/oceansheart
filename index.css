@@ -6,6 +6,11 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+  #hero_image a {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+  }
 
 #title_image {
   max-height: 25%;
