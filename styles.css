@@ -1,0 +1,64 @@
+/* #hero_image {
+  height: 100%;
+  position:absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+  #hero_image img {
+    width: 100%;
+  }
+  @media (max-aspect-ratio: 5/4) {
+    #hero_image img {
+      height: 100%;
+      object-fit: cover;
+    }
+  } */
+
+@import url('https://fonts.googleapis.com/css?family=Rubik');
+
+:root {
+	--yellow: #e0c860;
+	--green: #3e5022;
+	--white: #D7D3D2;
+}
+
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+
+	line-height: 1.618;
+	list-style: none;
+	font-family: 'Rubik', sans-serif;
+	text-align: center;
+	text-decoration: none;
+}
+
+body, html {
+  height: 100%;
+  /* background-color: #000; */
+}
+
+#hero_image {
+  background-image: url("resources/hero_image_3-blurred.png");
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+  @media (max-aspect-ratio: 5/4) {
+    #hero_image{
+      height: 100%;
+      /* object-fit: cover; */
+    }
+  }
+
+#title_image {
+  max-height: 25%;
+  max-width: 80%;
+  position: absolute;
+  bottom: 0px;
+  left: 3%;
+}
