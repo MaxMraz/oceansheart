@@ -85,5 +85,29 @@
 
 ul {
   list-style: inside;
-  list-style-image: url('resources/marker_icon.png');
+  list-style-type: disc;
+  /* list-style-image: url('resources/marker_icon.png'); */
 }
+  ul li {
+    margin-bottom: 1em;
+  }
+
+#contact {
+  text-align: center;
+}
+
+  #contact a {
+    font-size: 20px;
+    padding: 4px 20px;
+  }
+
+#contactDecorations {
+  display: inline-block;
+}
+
+  #contactLeavesLeft {
+    transform: scaleX(-1);
+  }
+  #contactLeavesLeft, #contactLeavesRight {
+    max-width: 20vw;
+  }
